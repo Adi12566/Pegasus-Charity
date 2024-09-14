@@ -94,7 +94,7 @@ const UserAdPage = () => {
                         src={`https://source.unsplash.com/512x768/?${extractKeywords(campaign.campaignName)}`}
                         className="img"
                         alt={campaign.campaignName}
-                        onError={(e) => e.target.src = 'https://img.freepik.com/premium-vector/helping-hand-concept-gesture-sign-help-hope-two-hands-taking-each-other_158483-1746.jpg?w=740'} // Fallback image
+
                       />
                       <h3>{campaign.campaignName}</h3>
                       <p>{campaign.ngoName}</p>
