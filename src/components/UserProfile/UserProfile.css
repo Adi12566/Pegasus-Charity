@@ -1,0 +1,53 @@
+/* UserProfile.css */
+.user-profile-container {
+  display: flex; /* Allows cards to wrap onto the next line if there's not enough space */
+  align-items: flex-start; /* Aligns items to the top of the container */
+  gap: 20px; /* Adds some space between the cards */
+  padding: 10 px;
+  margin-left: 0;
+  max-width: 3000px;
+}
+
+
+.user-profile-card {
+  flex: 0 1 calc(33.33% - 20px); /* Adjust the percentage for desired width */
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 5px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+  /* Removed margin-right as gap property in the container is used */
+}
+
+.user-profile-card:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* ...rest of your styles... */
+@media (max-width: 600px) {
+  .user-profile-card {
+    flex: 0 1 100%; /* Each card takes full width on smaller screens */
+  }
+}
+
+
+.user-profile-card:hover {
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly more opaque on hover */
+}
+
+.user-profile-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.user-profile-card h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.user-profile-card p {
+  color: #666;
+}
