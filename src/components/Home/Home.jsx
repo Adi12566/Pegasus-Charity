@@ -8,29 +8,25 @@ import CardSlider from './CardSlider';
 
 const sliderData = [
   {
+    image: '/image/Adi.jpeg',
+    altText: 'Image 2',
+    name: 'ADITYA V',
+  },
+  {
+    image: '/image/Arthan.png',
+    altText: 'Image 2',
+    name: 'ARTHAN M GOWDA',
+  },
+  {
       image: '/image/GG.jpg',
       altText: 'Image 1',
       name: 'GAGAN SHIVANNA',
-      profession: 'PRODUCT MANAGER'
   },
   {
-      image: '/image/Adi.jpeg',
-      altText: 'Image 2',
-      name: 'ADITYA V',
-      profession: 'CHIEF FRONT END'
-  },
-  /*{
     image: '/image/Karthik.jpeg',
     altText: 'Image 1',
     name: 'KARTHIK H N',
-    profession: 'CORE BACKEND'
-},*/
-{
-    image: '/image/Suman.jpeg',
-    altText: 'Image 2',
-    name: 'SUMAN B S ',
-    profession: 'HR'
-},
+  }
 /*
 {
   image: '/image/Arjun.jpeg',
